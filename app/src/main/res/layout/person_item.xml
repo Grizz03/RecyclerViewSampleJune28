@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?textAppearanceBody1"
+        tools:text="Michael" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/age_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?textAppearanceBody1"
+        tools:text="76" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/nickname_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="Jackson" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/is_alive_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="true" />
+</LinearLayout>
